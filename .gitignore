@@ -1,0 +1,48 @@
+# Microsoft Office temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Node / npm
+node_modules/
+.npm
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+
+# Logs
+*.log
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Sensitive files - never commit
+*.env
+*.secret
+secrets.json
+credentials.json
