@@ -1,129 +1,103 @@
-# GRC Portfolio — Shivam Kumar
+# AI Governance & GRC Portfolio: Shivam Kumar
 
-![GRC](https://img.shields.io/badge/GRC-Governance%20%7C%20Risk%20%7C%20Compliance-blue)
-![Frameworks](https://img.shields.io/badge/Frameworks-ISO%2027001%20%7C%20GDPR%20%7C%20Cyber%20Essentials%20%7C%20NIST-green)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Focus](https://img.shields.io/badge/Focus-AI%20Governance%20%7C%20GRC-blue)
+![Frameworks](https://img.shields.io/badge/Frameworks-ISO%2027001%20%7C%20NIST%20%7C%20GDPR%20%7C%20EU%20AI%20Act-green)
 
 ## About
 
-This repository is a practical GRC (Governance, Risk & Compliance) portfolio built to demonstrate real-world skills in compliance documentation, risk assessment, vendor management, AI governance, and policy development.
+I work in AI compliance and security. I'm an AI Compliance Specialist at Peak Cyber Institute, where I map security controls to NIST CSF and automate audit evidence with Python and Power Automate. Before that I supported client audits against ISO 27001 and SOC 2 at LRQA Nettitude. I hold CompTIA Security+ and the AWS Certified AI Practitioner.
 
-I am an aspiring GRC & Cybersecurity Analyst based in the UK, with hands-on experience in Identity & Access Management (IAM), cloud security (Microsoft Azure/Entra), and compliance frameworks including ISO 27001, GDPR, Cyber Essentials, and NIST CSF.
+This repository holds the governance, risk and compliance documents I've written. The code projects that go with it are listed below.
 
-**Connect with me:** [LinkedIn](https://www.linkedin.com/in/shivamkumar20-ai)
-
----
-
-## Portfolio Contents
-
-### 1. Basic GDPR & Cyber Essentials Compliance Checklist
-**File:** `Basic GDPR & Cyber Essentials Compliance Checklist (for Filey).docx`
-
-A practical compliance checklist mapped against GDPR principles and the UK Cyber Essentials framework. Designed for a small-to-medium business scenario, covering data protection obligations, access control requirements, patch management, and boundary firewalls.
-
-**Frameworks:** GDPR | Cyber Essentials
-**Skills demonstrated:** Compliance gap analysis, checklist development, regulatory mapping
+**Connect:** [LinkedIn](https://www.linkedin.com/in/shivam-kumar-554395239) | [GitHub](https://github.com/ShivamKumar20-AI) | [Portfolio site](https://shivamkumar20-ai.github.io)
 
 ---
 
-### 2. Compliance Evidence Collection Framework
-**File:** `Compliance evidence collection framework.docx`
+## AI governance tools I've built
 
-A structured framework for gathering and organising compliance evidence to support audits and regulatory assessments. Covers evidence types, collection methods, ownership assignment, and retention schedules.
+| Project | What it shows |
+|---|---|
+| [EU AI Act Risk Checker](https://github.com/ShivamKumar20-AI/eu-ai-act-checker) | Screens an AI use case into EU AI Act risk tiers. Input validation, rate limiting, and audit logs that store a hash rather than raw text |
+| [GDPR Request Classifier](https://github.com/ShivamKumar20-AI/gdpr-classifier) ([live demo](https://gdpr-classifier.streamlit.app)) | Triages data subject requests to GDPR articles. A suspected breach outranks other rules because of the 72-hour deadline. History stores a hash and a masked preview, not the request text |
+| [RAG Compliance Chatbot](https://github.com/ShivamKumar20-AI/rag-compliance-chatbot) ([live demo](https://rag-compliance-chatbot.streamlit.app)) | Answers questions over the EU AI Act, NIST AI RMF and NIST CSF 2.0, citing document and page. Retrieval is measured on a 25-question test set |
+| [GenAI Use Case Risk Screener](https://github.com/ShivamKumar20-AI/Gen-Ai-Use-Case-Risk-Screener) | Maps a proposed GenAI feature to ISO 27001 and NIST controls |
+| [Article: AI-assisted triage of data subject requests](https://medium.com/@shivamkumar9076431/building-an-ai-assisted-triage-layer-for-data-subject-requests-979eb71751ea) | The design behind the GDPR classifier, including human sign-off and a DPIA before real use |
 
-**Frameworks:** ISO 27001 | SOC 2 | Cyber Essentials
-**Skills demonstrated:** Audit preparation, evidence management, documentation standards
-
----
-
-### 3. Draft Acceptable Use Policy (AUP)
-**File:** `Draft Acceptable Use Policy.docx`
-
-A formal Acceptable Use Policy defining the permitted and prohibited use of IT systems, devices, and data within an organisation. Addresses BYOD, remote working, data handling, and disciplinary procedures.
-
-**Frameworks:** ISO 27001 (A.5.10) | GDPR | Cyber Essentials
-**Skills demonstrated:** Policy writing, information security governance, stakeholder communication
+The live demos run on free hosting and go to sleep when idle. They take about 30 seconds to wake when you first open them.
 
 ---
 
-### 4. GRC Register for AI in the Finance Industry
+## Documents in this repository
+
+### 1. GRC Register for AI in the Finance Industry
 **File:** `GRC Register for using AI in the finance industry v.02.pdf`
 
-A comprehensive risk register assessing the governance, risk, and compliance implications of deploying AI systems within the financial services sector. Maps AI risks to regulatory obligations including FCA guidance, GDPR, and emerging EU AI Act considerations.
+A risk register for AI use in financial services with seven risks: biased lending decisions, customer data breach, model drift, third-party AI vendor risk, regulatory non-compliance, AI misuse by employees, and attacks on AI models (such as data poisoning). Each has a cause, impact, High/Medium/Low rating and mitigating controls. It refers to GDPR and FCA requirements.
 
-**Frameworks:** NIST AI RMF | EU AI Act | GDPR | FCA Principles
-**Skills demonstrated:** AI governance, risk identification and scoring, regulatory mapping, financial sector compliance
+**Skills demonstrated:** AI risk identification and rating, control selection, regulatory awareness
 
----
-
-### 5. Staff Tracking System Risk & Compliance Review
-**File:** `Staff tracking system-V02.xlsx`
-
-A compliance and risk assessment workbook evaluating a staff tracking/monitoring system against GDPR lawful basis requirements, data minimisation principles, and employee privacy rights. Includes a risk matrix and recommended mitigations.
-
-**Frameworks:** GDPR | UK Data Protection Act 2018
-**Skills demonstrated:** Data protection impact assessment (DPIA), risk matrix construction, privacy risk management
-
----
-
-### 6. Third-Party Vendor Assessment Portfolio
+### 2. Third-Party Vendor Assessment Portfolio
 **File:** `Third-Party Vendor Assessment Portfolio.docx`
 
-A full vendor risk assessment portfolio covering the evaluation of third-party suppliers against security, compliance, and operational resilience criteria. Includes vendor scoring methodology, risk tiering, and due diligence documentation.
+A vendor risk assessment template and case study for a FinTech payment processing supplier (January 2026). It covers questionnaire design, a risk scoring method and a worked evaluation, based on ISO 27001, SOC 2 and GDPR controls.
 
-**Frameworks:** ISO 27001 (A.5.19–A.5.22) | Cyber Essentials | NIST CSF
-**Skills demonstrated:** Third-party risk management (TPRM), vendor due diligence, supply chain security
+**Skills demonstrated:** third-party risk management, due diligence, risk scoring
 
----
-
-### 7. Vendor Risk Security Questionnaire
+### 3. Vendor Risk Security Questionnaire
 **File:** `Vendor_Risk_Security_Questionnaire.pdf`
 
-A structured security questionnaire used to assess vendor posture across key domains including data security, access control, incident response, business continuity, and compliance certifications.
+A structured questionnaire for assessing a software vendor's security, compliance and risk practices before using their product.
+
+**Skills demonstrated:** questionnaire design, security controls assessment
+
+### 4. Compliance Evidence Collection Framework
+**File:** `Compliance evidence collection framework.docx`
+
+A framework for gathering and organising evidence for audits: evidence types, collection methods, ownership and retention.
 
 **Frameworks:** ISO 27001 | SOC 2 | Cyber Essentials
-**Skills demonstrated:** Vendor risk questionnaire design, security controls assessment, third-party governance
+**Skills demonstrated:** audit preparation, evidence management
+
+### 5. Basic GDPR & Cyber Essentials Compliance Checklist
+**File:** `Basic GDPR & Cyber Essentials Compliance Checklist (for Filey).docx`
+
+A practical checklist for a small property business, covering privacy notices, data subject rights, DPIAs, records of processing, and Cyber Essentials controls.
+
+**Frameworks:** GDPR | Cyber Essentials
+**Skills demonstrated:** compliance gap analysis, regulatory mapping
+
+### 6. Draft Acceptable Use Policy
+**File:** `Draft Acceptable Use Policy.docx`
+
+An Acceptable Use Policy covering permitted and prohibited use of IT systems, BYOD, remote working and data handling.
+
+**Frameworks:** ISO 27001 (A.5.10) | GDPR | Cyber Essentials
+**Skills demonstrated:** policy writing, information security governance
+
+### 7. Staff Tracking System Risk & Compliance Review
+**File:** `Staff tracking system-V02.xlsx`
+
+A workbook assessing a staff monitoring system against GDPR lawful basis, data minimisation and employee privacy rights, with a risk matrix and mitigations.
+
+**Frameworks:** GDPR | UK Data Protection Act 2018
+**Skills demonstrated:** DPIA-style assessment, privacy risk management
 
 ---
 
-## Skills Demonstrated Across This Portfolio
+## Frameworks referenced
 
-| Skill Area | Artefacts |
-|---|---|
-| Regulatory Compliance (GDPR, Cyber Essentials) | Checklist, AUP, Staff Tracking Review |
-| Risk Assessment & Risk Registers | AI GRC Register, Staff Tracking, Vendor Assessment |
-| Policy Development | Acceptable Use Policy |
-| Third-Party / Vendor Risk Management | Vendor Assessment Portfolio, Security Questionnaire |
-| AI Governance | GRC Register for AI in Finance |
-| Audit & Evidence Management | Evidence Collection Framework |
-| Framework Mapping (ISO 27001, NIST, GDPR) | Multiple documents |
+ISO/IEC 27001:2022, SOC 2, NIST CSF 2.0, NIST AI RMF, EU AI Act, GDPR and UK Data Protection Act 2018, Cyber Essentials, FCA principles.
 
 ---
 
-## Frameworks & Standards Referenced
+## Experience behind this work
 
-- **ISO/IEC 27001:2022** — Information Security Management
-- **GDPR / UK Data Protection Act 2018** — Data Privacy & Protection
-- **Cyber Essentials / Cyber Essentials Plus** — UK Government Cyber Scheme
-- **NIST CSF 2.0** — Cybersecurity Framework
-- **NIST AI RMF** — AI Risk Management Framework
-- **EU AI Act** — AI Governance & Regulation
-- **FCA Principles** — Financial Conduct Authority Guidance
-- **SOC 2** — Service Organisation Control
+- **AI Compliance Specialist, Peak Cyber Institute (Aug 2025 to present):** mapped 100+ security controls to NIST CSF, ran gap analysis across 15 high-risk areas, and cut audit response time by 35% with Python and Power Automate.
+- **Cybersecurity Apprentice, LRQA Nettitude (Jan to Jul 2025):** mapped client environments to ISO 27001 and SOC 2, supported 4+ client audits with zero critical findings and 150+ assessments.
+- **Application Support / Integrations Analyst, P&O Ferrymasters (Sep 2022 to Dec 2024):** provisioned and reviewed user access to ISO 27001 standards and built Microsoft 365 Power Automate workflows.
+
+**Open to:** AI governance, AI compliance and security engineering, GRC and AI engineering roles in the UK.
 
 ---
 
-## About Me
-
-I am actively pursuing entry-to-mid level GRC Analyst, IAM Analyst, and Cybersecurity Analyst roles in the UK. My background includes:
-
-- Integrations Analyst experience with hands-on IAM, conditional access, and privilege management
-- Cyber apprenticeship with practical cybersecurity exposure
-- Self-directed study across GRC, cloud security (Azure), and compliance automation
-- Projects in Power Automate, Python, and Microsoft 365 security tooling
-
-**Open to opportunities in:** GRC | IAM | Cybersecurity | Information Security | Risk & Compliance
-
----
-
-*This portfolio is actively maintained and updated as new projects and artefacts are completed.*
+*The documents here are portfolio work and not legal advice.*
