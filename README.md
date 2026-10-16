@@ -59,9 +59,9 @@ A framework for gathering and organising evidence for audits: evidence types, co
 **Skills demonstrated:** audit preparation, evidence management
 
 ### 5. Basic GDPR & Cyber Essentials Compliance Checklist
-**File:** `Basic GDPR & Cyber Essentials Compliance Checklist (for Filey).docx`
+**File:** `Basic GDPR & Cyber Essentials Compliance Checklist (London SME property company).docx`
 
-A practical checklist for a small property business, covering privacy notices, data subject rights, DPIAs, records of processing, and Cyber Essentials controls.
+A practical checklist written for a real SME property company based in London (name removed), covering privacy notices, data subject rights, DPIAs, records of processing, and Cyber Essentials controls.
 
 **Frameworks:** GDPR | Cyber Essentials
 **Skills demonstrated:** compliance gap analysis, regulatory mapping
@@ -69,7 +69,7 @@ A practical checklist for a small property business, covering privacy notices, d
 ### 6. Draft Acceptable Use Policy
 **File:** `Draft Acceptable Use Policy.docx`
 
-An Acceptable Use Policy covering permitted and prohibited use of IT systems, BYOD, remote working and data handling.
+An Acceptable Use Policy drafted for the same London SME property company (name removed), covering permitted and prohibited use of IT systems, BYOD, remote working and data handling.
 
 **Frameworks:** ISO 27001 (A.5.10) | GDPR | Cyber Essentials
 **Skills demonstrated:** policy writing, information security governance
