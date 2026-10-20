@@ -18,8 +18,8 @@ This repository holds the governance, risk and compliance documents I've written
 | Project | What it shows |
 |---|---|
 | [EU AI Act Risk Checker](https://github.com/ShivamKumar20-AI/eu-ai-act-checker) | Screens an AI use case into EU AI Act risk tiers. Input validation, rate limiting, and audit logs that store a hash rather than raw text |
-| [GDPR Request Classifier](https://github.com/ShivamKumar20-AI/gdpr-classifier) ([live demo](https://gdpr-classifier.streamlit.app)) | Triages data subject requests to GDPR articles. A suspected breach outranks other rules because of the 72-hour deadline. History stores a hash and a masked preview, not the request text |
-| [RAG Compliance Chatbot](https://github.com/ShivamKumar20-AI/rag-compliance-chatbot) ([live demo](https://rag-compliance-chatbot.streamlit.app)) | Answers questions over the EU AI Act, NIST AI RMF and NIST CSF 2.0, citing document and page. Retrieval is measured on a 25-question test set |
+| [GDPR Request Classifier](https://github.com/ShivamKumar20-AI/gdpr-classifier) ([live demo](https://gdpr-classifier.streamlit.app)) | Triages data subject requests to GDPR articles. A suspected breach outranks other rules because of the 72-hour deadline. Stores a salted hash and the request length, never the request text; the history view is admin-only |
+| [RAG Compliance Chatbot](https://github.com/ShivamKumar20-AI/rag-compliance-chatbot) ([live demo](https://rag-compliance-chatbot.streamlit.app)) | Answers questions over the EU AI Act, NIST AI RMF and NIST CSF 2.0, citing document and page. Retrieval is measured on a 25-question test set. Questions are length- and rate-limited, and the search index is checksum-verified before loading |
 | [GenAI Use Case Risk Screener](https://github.com/ShivamKumar20-AI/Gen-Ai-Use-Case-Risk-Screener) | Maps a proposed GenAI feature to ISO 27001 and NIST controls |
 | [Article: AI-assisted triage of data subject requests](https://medium.com/@shivamkumar9076431/building-an-ai-assisted-triage-layer-for-data-subject-requests-979eb71751ea) | The design behind the GDPR classifier, including human sign-off and a DPIA before real use |
 
